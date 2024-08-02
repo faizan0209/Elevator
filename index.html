@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elevator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="building">
+            <div id="elevator" class="elevator">
+                <div class="door door-left"></div>
+                <div class="door door-right"></div>
+            </div>
+            <div class="floor" id="floor3">Floor 1</div>
+            <div class="floor" id="floor2">Floor 2</div>
+            <div class="floor" id="floor1">Floor 3</div>
+        </div>
+        <div class="controls">
+            <button onclick="moveToFloor(3)">Floor 3</button>
+            <button onclick="moveToFloor(2)">Floor 2</button>
+            <button onclick="moveToFloor(1)">Floor 1</button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
